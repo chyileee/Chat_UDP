@@ -88,7 +88,7 @@ namespace Chat_Client_App
 
         }
 
-        private void button1_Click(object sender, EventArgs e)//Start
+        private void button1_Click(object sender, EventArgs e)//Start button
         {
             try
             {
@@ -120,7 +120,7 @@ namespace Chat_Client_App
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)///exchange Port value
         {
             string ex;
             ex = textLocalPort.Text;
@@ -129,7 +129,7 @@ namespace Chat_Client_App
 
         }
 
-        private void button2_Click(object sender, EventArgs e)//Send 
+        private void button2_Click(object sender, EventArgs e)//Send button
         {
             try
             {
